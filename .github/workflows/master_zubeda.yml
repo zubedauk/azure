@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'zubeda'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_1e975cdbaa2045b594eb2f673a41f790 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_07984f7610374ab2821c9e4161f9418d }}
         package: .
