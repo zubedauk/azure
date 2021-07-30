@@ -18,7 +18,7 @@ const server=http.createServer((req,res)=>{
         res.writeHead(404)
     }
 })
-var port = process.env.PORT || 3001;
+var port = process.env.PORT || 3002;
 server.listen(port, "localhost", () => {
   console.log("server is runing on port " + port);
 });
